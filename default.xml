@@ -73,7 +73,7 @@
   <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" remote="github" />
 
   <project path="device/motorola/droid2" name="CyanogenMod/android_device_motorola_droid2" remote="github" />
-  <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_jordan" remote="github" />
+  <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_jordan" remote="github" revision="omap4-merge" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" />
   <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
@@ -201,7 +201,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" />
 
-  <project path="frameworks/base" name="tpruvot/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="tpruvot/android_frameworks_base" remote="github" revision="omap4-merge"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 
@@ -214,7 +214,9 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="github" />
-  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3" remote="github" />
+  <project path="hardware/ti/omap3" name="tpruvot/android_hardware_ti_omap3" remote="github" revision="omap4-merge" />
+  <project path="hardware/ti/omx" name="tpruvot/android_hardware_ti_omx" remote="github" revision="omap4-merge" />
+
   <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" remote="github" />
 
   <project path="libcore" name="CyanogenMod/android_libcore" remote="github" />
